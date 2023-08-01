@@ -22,8 +22,8 @@ class UserSeeder extends Seeder
             [
                 'id' => 1,
                 'name' => 'Admin',
-                'email' => 'admin@softpyramid.us',
-                'password' => Hash::make('softpyramid123'),
+                'email' => 'admin@mlm.com',
+                'password' => Hash::make('mlm12345'),
                 'role_id' => ROLE_ADMIN,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -31,8 +31,8 @@ class UserSeeder extends Seeder
             [
                 'id' => 2,
                 'name' => 'User',
-                'email' => 'user@softpyramid.us',
-                'password' => Hash::make('softpyramid123'),
+                'email' => 'user@mlm.com',
+                'password' => Hash::make('mlm12345'),
                 'role_id' => ROLE_USER,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
